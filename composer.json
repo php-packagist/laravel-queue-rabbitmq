@@ -1,0 +1,12 @@
+{
+    "name": "php-packagist/laravel-queue-rabbitmq",
+    "description": "Laravel Queue Rabbitmq",
+    "autoload": {
+        "psr-4": {
+            "PhpPackagist\\LaravelRabbitmq\\": "src/"
+        }
+    },
+    "require": {
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "^12.0"
+    }
+}
