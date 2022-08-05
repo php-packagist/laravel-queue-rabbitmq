@@ -1,7 +1,14 @@
 # Laravel Queue RabbitMQ
 
 > _——The idea came from [vyuldashev/laravel-queue-rabbitmq](https://github.com/vyuldashev/laravel-queue-rabbitmq)_
-> > _**区别：** 解决常驻进程下，长时间没有消息，RabbitMQ 主动断开连接问题_
+
+## 区别
+
+> 与 [vyuldashev/laravel-queue-rabbitmq](https://github.com/vyuldashev/laravel-queue-rabbitmq) 的区别
+
+- 解决常驻进程下，长时间没有消息，RabbitMQ 主动断开连接问题
+- 调整部分支持 PHP 8.0 的语法
+- 优化部分强类型支持
 
 ## 安装
 
