@@ -6,5 +6,5 @@
 ## Installation
 
 ```bash
-composer require vladimir-yuldashev/laravel-queue-rabbitmq
+composer require php-packagist/laravel-queue-rabbitmq
 ```
