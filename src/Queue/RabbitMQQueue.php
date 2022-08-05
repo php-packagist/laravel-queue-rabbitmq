@@ -172,7 +172,7 @@ class RabbitMQQueue extends Queue implements QueueContract
      *
      * @return mixed
      *
-     * @throws AMQPProtocolChannelException
+     * @throws AMQPProtocolChannelException|JsonException
      */
     public function laterRaw($delay, $payload, $queue = null, $attempts = 0)
     {
@@ -216,7 +216,7 @@ class RabbitMQQueue extends Queue implements QueueContract
      *
      * @return mixed
      *
-     * @throws AMQPProtocolChannelException
+     * @throws AMQPProtocolChannelException|JsonException
      */
     public function bulkRaw(string $payload, $queue = null, array $options = [])
     {
@@ -838,7 +838,7 @@ class RabbitMQQueue extends Queue implements QueueContract
      *
      * @param string      $destination
      * @param string|null $exchange
-     * @param string|null $exchangeType
+     * @param string      $exchangeType
      *
      * @return void
      *

@@ -3,8 +3,23 @@
 > _——The idea came from [vyuldashev/laravel-queue-rabbitmq](https://github.com/vyuldashev/laravel-queue-rabbitmq)_
 > > _**区别：** 解决常驻进程下，长时间没有消息，RabbitMQ 主动断开连接问题_
 
-## Installation
+## 安装
 
 ```bash
 composer require php-packagist/laravel-queue-rabbitmq
 ```
+
+## 使用
+
+> 参考 [vyuldashev/laravel-queue-rabbitmq](https://github.com/vyuldashev/laravel-queue-rabbitmq)
+
+## 版本说明
+
+| x             | y            | z            |
+|---------------|--------------|--------------|
+| 对应 Laravel 版本 | 当前 x 版本的功能版本 | 当前 y 版本的修复版本 |
+
+## License
+
+- MIT
+- [Copyright (c) Vladimir Yuldashev](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/LICENSE.md)
