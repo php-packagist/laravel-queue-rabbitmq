@@ -1,6 +1,6 @@
 {
     "name": "php-packagist/laravel-queue-rabbitmq",
-    "description": "Laravel Queue Rabbitmq",
+    "description": "Laravel Queue RabbitMQ",
     "autoload": {
         "psr-4": {
             "PhpPackagist\\LaravelQueueRabbitMQ\\": "src/"
